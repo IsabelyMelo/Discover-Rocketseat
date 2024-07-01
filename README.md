@@ -18,10 +18,10 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="" src="" width="100%">
+  <img alt="projeto links" src=".github/preview.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+##  Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -30,15 +30,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## 💻 Projeto
+## Projeto
 
 O projeto é um agregador de links para usar como cartão de visitas online
 
-## 🔖 Layout
+[Link] () para visualização o projeto.
 
-Você pode visualizar o layout do projeto através [DESSE LINK](). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+## Layout
 
-## :memo: Licença
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/aZSjJQwha0awnzkn6Q9CPX/DevLinks-%25E2%2580%25A2-Projeto-Discover-(Community)?type=design&node-id=10-620&mode=design). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+## Licença
 
 Esse projeto está sob a licença MIT.
 
