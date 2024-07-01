@@ -9,7 +9,7 @@
   --bg-url: url(./assets/bg-mobile.jpg);
   --border-color: rgba(255, 255, 255, 0.5);
   --background-color: rgba(255, 255, 255, 0.1);
-  --background-color-hover: rgba(255, 255, 255, 0.02);
+  --color-hover: rgba(255, 255, 255, 0.05);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
@@ -18,7 +18,7 @@
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --border-color: rgba(0, 0, 0, 0.5);
   --background-color: rgba(0, 0, 0, 0.04);
-  --background-color-hover: rgba(0, 0, 0, 0.09);
+  --color-hover: rgba(0, 0, 0, 0.09);
   --switch-bg-url: url(./assets/sun.svg);
 }
 
@@ -73,10 +73,14 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+
+  animation: slide-out 0.2s;
 }
 .light #switch button {
-  left: initial;
-  right: 0;
+  animation: slide-in 0.2s forwards;
+}
+#switch button:hover {
+  outline: 8px solid var(--color-hover);
 }
 #switch span {
   display: block;
@@ -108,7 +112,7 @@ ul li a {
 }
 /*seletor*/
 ul li a:hover {
-  background: var(--background-color-hover);
+  background: var(--color-hover);
   border: 1.5px solid var(--text-color);
 }
 
@@ -129,7 +133,7 @@ ul li a:hover {
 }
 /*seletor*/
 #social-links a:hover {
-  background: var(--background-color-hover);
+  background: var(--color-hover);
 }
 
 /*rodape*/
@@ -146,5 +150,24 @@ footer {
 
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+/*animations*/
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
