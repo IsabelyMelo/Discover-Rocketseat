@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto é um agregador de links para usar como cartão de visitas online
 
-[Link] () para visualização o projeto.
+[Link](https://isabelymelo.github.io/Discover-Rocketseat/) do projeto.
 
 ## Layout
 
